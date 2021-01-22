@@ -1,0 +1,68 @@
+body {
+  background-color: #e8e8e8;
+  margin: 0px;
+  padding: 0px;
+    font-family: helvetica;
+}
+
+.banner{
+  background-color: #3373ea;
+  /*#52ea33 #3373ea #ea5133 #33eaaa*/
+  height: 100vh;
+  width: 100vw;
+  }
+
+.banner-content{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-logo img{
+  width: 100vw;
+}
+
+.banner-contact {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-contact a {
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 4vw;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+}
+
+.banner-contact a:hover {
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.text{
+  margin: 50px 0px 0px 50px;
+  font-size: 6vw;
+}
+
+.clients{
+  background-image: url("images/water_banner.jpg");
+  width: 100vw;
+
+}
+
+.images{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.clients img{
+  width: 300px;
+}
