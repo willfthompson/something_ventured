@@ -5,9 +5,16 @@ body {
     font-family: helvetica;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+}
+
 .banner{
-  background-color: #3373ea;
+/*  background-color: #3373ea;*/
   /*#52ea33 #3373ea #ea5133 #33eaaa*/
+  /*background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(51,75,204,1) 100%);*/
+  background: radial-gradient(circle, rgba(51,234,170,1) 0%, rgba(37,173,126,1) 100%);
   height: 100vh;
   width: 100vw;
   }
@@ -42,27 +49,59 @@ body {
 }
 
 .banner-contact a:hover {
-  color: white;
+  color: #e8e8e8;
   transition: 0.2s ease-in-out;
 }
 
 .text{
-  margin: 50px 0px 0px 50px;
-  font-size: 6vw;
+  width: 300px;
+  font-size: 60px;
+  background: radial-gradient(circle, rgba(51,234,170,1) 0%, rgba(37,173,126,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .clients{
-  background-image: url("images/water_banner.jpg");
-  width: 100vw;
-
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .images{
-    display: flex;
+  width: 600px;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  box-shadow:
 }
 .clients img{
   width: 300px;
+}
+
+.footer{
+  height: 100px;
+  background: radial-gradient(circle, rgba(51,234,170,1) 0%, rgba(37,173,126,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer a{
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+}
+
+.footer a:hover {
+  color: #e8e8e8;
+  transition: 0.2s ease-in-out;
+}
+
+.footer img{
+  width: 40vw;
 }
