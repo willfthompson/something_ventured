@@ -2,7 +2,7 @@ body {
   background-color: #e8e8e8;
   margin: 0px;
   padding: 0px;
-    font-family: helvetica;
+  font-family: helvetica;
 }
 
 .container{
@@ -11,13 +11,13 @@ body {
 }
 
 .banner{
-/*  background-color: #3373ea;*/
+  /*  background-color: #3373ea;*/
   /*#52ea33 #3373ea #ea5133 #33eaaa*/
   /*background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(51,75,204,1) 100%);*/
   background: radial-gradient(circle, rgba(51,234,170,1) 0%, rgba(37,173,126,1) 100%);
   height: 100vh;
   width: 100vw;
-  }
+}
 
 .banner-content{
   height: 80vh;
@@ -43,7 +43,7 @@ body {
   padding: 20px;
   color: black;
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 2vw;
   text-decoration: none;
   transition: 0.4s ease-in-out;
 }
@@ -104,4 +104,14 @@ body {
 
 .footer img{
   width: 40vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .footer a{
+    font-size: 3vw;
+  }
+  .banner-contact a {
+  font-size: 4vw;
+}
 }
