@@ -53,30 +53,38 @@ body {
   transition: 0.2s ease-in-out;
 }
 
+.clients{
+  /*Photo by <a href="https://unsplash.com/@marjan_blan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Марьян Блан | @marjanblan</a> on <a href="https://unsplash.com/s/photos/grey?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"*/
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .text{
   width: 300px;
   font-size: 60px;
   background: radial-gradient(circle, rgba(51,234,170,1) 0%, rgba(37,173,126,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.clients{
-  width: 80vw;
-  display: flex;
-  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 25%;
 }
 
 .images{
-  width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  box-shadow:
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 75%;
 }
+
+
 .clients img{
-  width: 300px;
+  width: 250px;
+  padding: 30px;
 }
 
 .footer{
@@ -113,5 +121,11 @@ body {
   }
   .banner-contact a {
   font-size: 4vw;
+}
+.text{
+flex-basis: 100%;
+}
+.images{
+  flex-basis: 100%;
 }
 }
